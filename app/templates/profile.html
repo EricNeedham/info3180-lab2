@@ -1,14 +1,86 @@
-<div id = "container">
-  
-  <div id = "top">
-    
-  <div id = "picture">
-    <img src="http://th04.deviantart.net/fs42/PRE/i/2009/105/a/e/Joker_by_vanbriesen.jpg" width="200px" height="200px"/>
-  </div>
-  <div id = "name">
-    <h3>Eric Needham</h3>
-    
-  </div>
-  </div>
-  
+<style>
+
+#Container
+{
+	height: 100px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+
+#picture
+{
+	display: inline-block;
+	width: 40%;
+	margin-right: 5%
+}
+
+
+#right
+{
+	display: inline-block;
+	width: 40%;
+	height: 100vh;
+	vertical-align: top;
+	margin-right: 5%;
+}
+
+
+#Name
+{
+	background-color: lightblue;
+	border: 1px solid black;
+	padding-left: 60px;
+}
+
+
+#Time
+{
+	background-color: lightblue;
+	border:1px solid black;
+	padding-left: 60px;
+  border-bottom:3px solid black;
+}
+
+
+#info
+{
+	background-color: lightblue;
+	border: 1px solid black;
+	padding-left: 60px;
+  margin-top:2px;
+  border-top:3px solid black;
+}
+
+</style>
+<div id="Container" class="" name="">
+	<div id="picture">
+			<img src="http://th04.deviantart.net/fs42/PRE/i/2009/105/a/e/Joker_by_vanbriesen.jpg" width="200px" height="200px"/>
+	</div>
+	<div id="right">
+			<div id="Name" class="" name="">
+				Eric Needham
+			</div>
+			<br/> 	<br/>
+		
+			<div id="Time">
+				Today is: {{time}}
+			</div>
+			<div id="info">
+				Username: EricNeedham
+				<br />
+				ID: 620059337
+				<br />
+				Sex: Male
+				<br />
+				Age: 21
+				<br />
+				High Score: 120
+				<br />
+				TDollars: 200
+			</div>
+	</div>
 </div>
